@@ -13,9 +13,36 @@ h3{
     color:#000000;
     font-family: 'Sriracha', cursive;
 }
-p{
+.content{
     font-family: 'Itim', cursive;
 }
-li{
-    font-family: 'Itim', cursive;
+.navbox{
+    display: flex;
+    background-color: #6A8EAE;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+.wknav{ 
+    padding: 2.5%;
+    width: 100%;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 25px;
+    color: white;
+}
+
+/**link colors**/
+a:link{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited{
+    color: #DBDBDB;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover{
+    color: #C1A0D1;
+    background-color: transparent;
+    text-decoration: none;
 }
